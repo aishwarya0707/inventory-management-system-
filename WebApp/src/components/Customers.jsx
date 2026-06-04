@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getCustomers, createCustomer, deleteCustomer } from '../services/api';
+import { getCustomers, createCustomer, deleteCustomer } from '../Services/api';
 
 export default function Customers() {
   const [customers, setCustomers] = useState([]);
