@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getOrders, getOrder, getProducts, getCustomers, createOrder, deleteOrder } from '../services/api';
+import { getOrders, getOrder, getProducts, getCustomers, createOrder, deleteOrder } from '../Services/api';
 
 export default function Orders() {
   const [orders, setOrders] = useState([]);
